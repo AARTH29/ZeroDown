@@ -16,7 +16,6 @@ Approach
 
 1] Extractes the data from source and converted the .tsv file. Performed a transformation of removing the rows that contained null values in any of the columns using python pandas library.
   
-2] To build an interactive dashboard i preferred to use Tableau tool for the visualizations from the inference of all those kpi listed and create a dashboard. This would eliminate the need for an 
-externak database for now as the data file can be directly used in tableau.
+2] To build an interactive dashboard i preferred to use Tableau tool for the visualizations such as time line charts and score cards from the inference of all those kpi listed and create a dashboard. This would eliminate the need for an external database for now as the data file can be directly used in tableau.
     
 3] That Tableau dahboard can be embedded into VueJS framework using Tableau Javascriot API. 
