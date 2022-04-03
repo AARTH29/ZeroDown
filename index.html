@@ -1,0 +1,27 @@
+!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Embedded Analytics with Tableau</title>
+
+</head>
+<body>
+  <div id="vizual"></div>
+  <script src="https://us-east-1.online.tableau.com/javascripts/api/tableau-2.min.js"></script>
+  <script>
+    var viz
+    //created a div element where tableau visualization will be inserted
+    // a function to display the visualization
+    function initViz() {
+      var containerDiv = document.getElementById("vizual"),
+      url = "";
+
+      viz = new tableau.Viz(containerDiv, url);
+    }
+    //calling the function when page is done loading;
+    initViz();
+  </script>
+
+</body>
+</html>
